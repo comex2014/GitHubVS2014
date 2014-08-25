@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Laser scanner">
+      <UniqueIdentifier>{6d4b13b1-db64-4a37-8e20-4f773668e887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Camera">
+      <UniqueIdentifier>{d4a9c842-ffa5-465c-bf81-7ecf09c21883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GPS">
+      <UniqueIdentifier>{5653a26d-f238-42aa-a66f-fc323092f917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\IMU">
+      <UniqueIdentifier>{6b5367d4-a44a-410f-89ae-9c2f3693e194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Radar">
+      <UniqueIdentifier>{d1b20382-e33b-4c12-8775-0f8dd0dd1f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Others">
+      <UniqueIdentifier>{0376af32-f3eb-462c-8946-470cbbd643ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SLAM">
+      <UniqueIdentifier>{9a70e1d3-d67e-46df-8791-714041e0827e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Laser Scanner">
+      <UniqueIdentifier>{3ae89983-7894-4316-aab6-535fbdf4c575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MRPT">
+      <UniqueIdentifier>{51a0b8e0-f588-4463-b0e8-b856351ef290}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LMS1XX.cpp">
+      <Filter>源文件\Laser Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="Read_Log_File.cpp">
+      <Filter>源文件\Laser Scanner</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\MRPT</Filter>
+    </ClCompile>
+    <ClCompile Include="test_mrpt.cpp">
+      <Filter>源文件\MRPT</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
